@@ -3,8 +3,8 @@ exports.run = async (client, message, args, lang) => {
     let version = require("../../package.json").version;
     let discord_giveaways = require("../../package.json").dependencies["discord-giveaways"];
     let supportURL = client.config.support;
-    let website = `https://giveawayybot.glitch.me/`
-    let invite = `https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`;
+    let support = `https://discord.gg/7XMgt9xmQr`
+    let invite = `https://discord.com/api/oauth2/authorize?client_id=820248919836983307&permissions=8&scope=bot`;
     message.channel.send(new MessageEmbed()
         .setTitle(lang.help.title)
         .addField(lang.help.giveawaycmd,'`create`, `start`, `end`, `edit`, `reroll`, `delete`')
