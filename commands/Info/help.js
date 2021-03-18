@@ -9,7 +9,7 @@ exports.run = async (client, message, args, lang) => {
         .setTitle(lang.help.title)
         .addField(lang.help.giveawaycmd,'`create`, `start`, `end`, `edit`, `reroll`, `delete`')
         .addField(lang.help.featuredcmd,'`setlang`, `set logs`, `set mention on`, `set mention off`, `setprefix`, `set role`')
-        .addField(lang.help.infocmd,'`stats`, `ping`, `invite`, `help`')
+        .addField(lang.help.infocmd,'`stats`, `ping`, `help`')
         .addField(lang.help.link, `[Support server](${supportURL}) | [Invite](${invite})`)
         .setColor("RED"))
 }
