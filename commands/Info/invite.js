@@ -11,7 +11,7 @@ exports.run = async (client, message, args, lang) => {
         .setAuthor(lang.invite.main)
         .setDescription(lang.invite.disc)
         .addField(lang.invite.inv, (`[Click Here](${inviteLink})`))
-        .addField(lang.invite.vote, (``))
+        .addField(lang.support.server, (`[Click Here]( https://discord.gg/7XMgt9xmQr`))
         .addField(lang.invite.sup, (`[Click Here](${supportURL})`))
         .setColor("RED"))
         
