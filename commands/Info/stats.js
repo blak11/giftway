@@ -14,6 +14,6 @@ exports.run = async (client, message, args, lang) => {
         .addField(lang.stats.ver, `\`Discord.js :\` v${Discord.version}\n\`Nodejs :\` v${process.versions.node}\n\`Discord-giveaways :\` v${discord_giveaways}\n\`PowerGift's :\` v${version}`)
         .addField(lang.stats.ram, `\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB\``)
         .addField(lang.stats.moreinfo, lang.stats.comd + message.client.commands.size + `\n` + lang.stats.giv + client.giveawaysManager.giveaways.length)
-        .addField(lang.help.link, `[Support server](${supportURL}) | [Invite](${invite}) |  [Website](${website}) `)
+        .addField(lang.help.link, `[Support server](${supportURL}) | [Invite](${invite})`)
         .setColor("RED"))
 }
