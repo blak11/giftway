@@ -1,8 +1,8 @@
 module.exports = {	
 hostedBy: true, 
-prefix: "!g",
+prefix: "!",
 OwnerID: "790265200770809857", 
-token: "ODIwMjQ4OTE5ODM2OTgzMzA3.YEyaVQ.SLKhV4nKN2fS2LSgvP7eqqLPu_E",
+token: "ODA2MDc0NjMzMTkwODk5NzMy.YBkJgA.LF5YyZptqIfMvb70IJMZ_qyw7jA",
 support: "4vthBEKHsB",
 basiclang: "en",
 color: "",
